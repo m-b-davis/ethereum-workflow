@@ -13,3 +13,7 @@ A simple ethereum smart contract to represent a workflow on the blockchain
  - Start testrpc by entering `testrpc` in another terminal (this will spin up a fresh blockchain)
  - `truffle deploy` in the project directory to deploy the workflow contract to the blockchain
  - `truffle test` to run tests
+
+### Files of interest
+ - `/contracts/Workflow.sol` for the contract
+ - `/tests/workflow.js` for tests and how to interact with the contract
